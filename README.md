@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Planettary
+
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) (v13.4.19)
+- [TailwindCSS](https://tailwindcss.com/) (v3.3.3)
+- [Storybook](https://storybook.js.org/) (v7.4.1)
+- [Jest](https://jestjs.io/) (v29.6.4)
+- [TypeScript](https://www.typescriptlang.org/) (v5.2.2)
+- [React Query](https://react-query.tanstack.com/) (v4.35.0)
+- [Axios](https://axios-http.com/) (v1.5.0)
+- [Day.js](https://day.js.org/) (v1.11.9)
+- [React Icons](https://react-icons.github.io/react-icons/) (v4.11.0)
 
 ## Getting Started
 
@@ -11,6 +24,16 @@ yarn dev
 # or
 pnpm dev
 ```
+## Available Scripts
+
+npm run dev: Starts the development server.
+npm run build: Builds the app for production.
+npm run start: Runs the built app in production mode.
+npm run lint: Runs the linter (ESLint).
+npm run storybook: Starts the Storybook server.
+npm run build-storybook: Builds the Storybook for static file hosting.
+npm run test: Runs Jest to test the components.
+npm run test:watch: Runs Jest in watch mode.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
